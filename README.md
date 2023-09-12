@@ -1,2 +1,2 @@
 # CarolPrado08.github.io
-Portifólio desenvolvido como projeto final do programa Elas na Tech
+Portifólio em desenvolvimento como projeto final do programa Elas na Tech
