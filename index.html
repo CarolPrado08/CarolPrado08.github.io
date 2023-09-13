@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script src="js/galeria-modal.js" defer></script>
+    <script src="js/index.js"></script>
 
 </head>
 
@@ -60,7 +61,7 @@
         <div id="sobre_mim">
             <div>
                 <h1 class="title">Carolina Prado</h1>
-                <p class="text_sobre-mim">Tenho 24 anos, sou uma pessoa apaixonada por arte e entusiasta da tecnologia. Minha primeira formação foi com uma Licenciatura de Letras - Português/Inglês, mas atualmente estou em transição de carreira e comecei os meus estudos na programação com Desenvolvimento Web Front-end e Web Design. Além disso, também estou estudando UX/UI Design e Design Gráfico afim de aprimorar meus conhecimentos e ter uma visão mais ampla como desenvolvedora. Para mim, desenvolver e criar são uma forma de expressar e aguçar a arte, criatividade e resolução de problemas que existe em mim, e de forma única isso me inspira a desenvolver e criar designs inovadores, úteis e agradáveis. Por isso, no momento estou participando da formação do Elas na Tech "Programação Web do Zero ao Avançado".
+                <p class="text_sobre-mim">Tenho 24 anos, sou uma pessoa apaixonada por arte e entusiasta da tecnologia. Minha primeira formação foi com uma Licenciatura de Letras - Português/Inglês, mas atualmente estou em transição de carreira e comecei os meus estudos na programação com Desenvolvimento Web Front-end e Web Design. Além disso, também estou estudando UX/UI Design e Design Gráfico afim de aprimorar meus conhecimentos e ter uma visão mais ampla como desenvolvedora. Para mim, desenvolver e criar são uma forma de expressar e aguçar a arte, criatividade e resolução de problemas que existe em mim, e de forma única isso me inspira a desenvolver e criar designs inovadores, úteis e agradáveis. Por isso, no momento estou participando da formação do Elas na Tech "Programação Web do Zero ao Avançado", Programa de tecnologia da Kick e Descodificadas.
                 </p>
             </div>
             <img src="img/minha-foto.jpeg" class="my-photo" alt="Foto de perfil: Carolina Prado">
@@ -107,7 +108,7 @@
         <section>
             <div class="galeria">
                 <div class="single-galeria">
-                    <img src="img/Certificado01.png" alt="" onclick="abrirGaleria('img/Certificado02.png')">
+                    <img src="img/Certificado01.png" alt="" onclick="abrirGaleria('img/Certificado01.png')">
                 </div>
                 <div class="single-galeria">
                     <img src="img/Certificado02.png" alt="" onclick="abrirGaleria('img/Certificado02.png')">
@@ -126,6 +127,36 @@
                 </div>
             </div>
         </section>
+
+        <h1 class="title title_habilidades">Minhas habilidades</h1>
+
+    
+            <div class="img_habilidades">
+                <img src="img/Img-lapis.svg" class="img-lapis" alt="">
+                <img src="img/Gráfico.png" class="img-grafico" alt="">
+            </div>
+
+        <h1 class="title title_contatos"> Contatos </h1>
+
+
+        <div class="meus_contatos">
+            <div class="icones-contatos">
+                <a href="carolprado08@gmail.com" target="_blank"><img class="icone-do-email" src="img/email.png" alt="ícone de E-mail"></a>
+                <span id="meu-email">carolprado08@gmail.com <button class="button-copy" onclick="copiarTexto()"><img src="img/icone-de-copiar.png" alt=""></button></span>
+            </div>
+            <div class="icones-contatos">
+                <a href="https://www.linkedin.com/in/carolina-prado-3954a4195/" target="_blank"><img src="img/linkedin-svg.svg" class="icone-do-linkedin" alt="ícone do Linkedin"></a>
+                <span>Linkedin</span>
+            </div>
+        </div>
+
+        <div class="curriculo-bg">
+        <p class="curriculo-frase">Veja o meu currúculo:</p>
+        <a href="curriculo-pdf.html" target="_blank"><img src="img/icone-curriculo.png" class="icone-meu-curriculo" alt="ícone de currículo"></a> 
+        </div>
+
+
+    
     
 </body>
 </html>

@@ -161,7 +161,7 @@ div.galeria-modal img{
 
 
 section{
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
     padding-left: 252px;
     padding-right: 252px;
@@ -215,5 +215,108 @@ div.galeria div.single-galeria img:hover{
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 15vh;
     }
+}
+
+
+
+/* Habilidades */
+
+
+.title_habilidades{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img_habilidades{
+    display: flex;
+    justify-content: center;
+}
+
+.img-lapis{
+    width: 280px;
+    margin-top: 30px;
+}
+
+.img-grafico{
+    width: 550px;
+    margin-left: 80px;
+}
+
+
+/* Contatos */
+
+.title_contatos{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.meus_contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0 auto;
+    
+}
+
+.icones-contatos{
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.icone-do-linkedin{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.icone-do-email{
+    margin-left: 2px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.curriculo-bg{
+    background-color: rgb(152, 152, 152);
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.curriculo-frase{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    align-content: center;
+    padding: 10px;
+    
+}
+
+.button-copy{
+    border: none;
+    background-color: none;
+}
+
+.button-copy:hover{
+    background-color: gray;
+}
+
+.icone-meu-curriculo{
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.icone-meu-curriculo:hover{
+    transform: scale(1.1);
 }
 
