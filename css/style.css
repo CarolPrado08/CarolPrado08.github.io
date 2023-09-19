@@ -209,18 +209,7 @@ div.galeria div.single-galeria img:hover{
 }
 
 
-/* Resposividade Geleria */
 
-@media screen and (max-width: 764px) {
-    section{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    div.galeria{
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 15vh;
-    }
-}
 
 
 

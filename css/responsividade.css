@@ -1,0 +1,105 @@
+
+
+@media screen and (max-width: 800px) {
+    
+
+/* navbar */
+
+
+.navbar-nav{
+    text-align: center;
+}
+
+.icon-in{
+    margin-left: 130px;
+    margin-top: 10px;
+   
+   
+}
+
+.icon-git{
+
+}
+
+/* sobre mim */
+
+#sobre_mim{
+    display: flex;
+    flex-direction: column;
+}
+
+.my-photo {
+    order: -1; 
+    margin: 0 auto;
+  }
+
+  .title{
+    text-align: center;
+    margin-top: 10px;
+    
+  }
+
+  .text_sobre-mim{
+    width: 100%;
+    text-align: justify;
+    padding: 15px;
+}
+
+/* Formação */
+
+#formacao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+    padding: 12px;
+}
+
+/* Cursos */
+
+#cursos{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-cursos{
+    display: none;
+}
+
+/* Resposividade Geleria */
+
+@media screen and (max-width: 764px) {
+    section{
+        min-height: max-content;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    div.galeria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 15vh;
+    }
+}
+
+/* Habilidades */
+
+.title_habilidades{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-lapis{
+    display: none;
+    
+}
+
+.img-grafico{
+    width: 100%;
+    margin-left: 0px;
+    margin: auto;
+    padding-left: 10px;
+}
+
+}
+
+
