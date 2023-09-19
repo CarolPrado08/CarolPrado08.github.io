@@ -1,8 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=DM+Serif+Display&display=swap');
 
+
+
+ 
 .container{
     display: flex;
     justify-content: center;
+   
 }
 
 #nav_link{
@@ -10,6 +14,7 @@
     font-weight: bold;
     
 }
+
 
 .logo-name{
     width: 40px;
@@ -276,10 +281,15 @@ div.galeria div.single-galeria img:hover{
     margin-right: 5px;
 }
 
+.linkedin-link:hover{
+    background-color: gray;
+}
+
 .icone-do-email{
     margin-left: 2px;
     margin-bottom: 5px;
     margin-right: 5px;
+    cursor: default;
 }
 
 .curriculo-bg{
@@ -314,10 +324,7 @@ div.galeria div.single-galeria img:hover{
 .icone-meu-curriculo{
     margin-left: 120px;
     margin-bottom: 50px;
-}
-
-.icone-meu-curriculo:hover{
-    transform: scale(1.1);
+    margin-top: 15px;
 }
 
 .icone-down-container{
@@ -336,4 +343,14 @@ div.galeria div.single-galeria img:hover{
 }
 .icones-curriculo{
     display: flex;
+}
+
+.icone-visualizar{
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 38px;
+}
+
+.icone-visualizar:hover{
+    background-color: gray;
 }

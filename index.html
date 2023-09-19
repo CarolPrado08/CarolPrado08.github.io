@@ -17,7 +17,7 @@
 
 <body>
 
-     <nav class="navbar navbar-expand-lg" style="background-image: linear-gradient( #000000, #A170F5);">
+     <nav class="navbar navbar-expand-lg" style="background-image: linear-gradient( #000000, #A170F5); position: fixed; top: 0; left: 0;  width: 100%;">
             <div class="container">
     
                 
@@ -30,22 +30,22 @@
                     <ul class="navbar-nav">
     
                         <li class="nav-item">
-                            <a href="#" class="nav-link">SOBRE</a>
+                            <a href="#sobre_mim" class="nav-link">SOBRE</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">FORMAÇÃO</a>
+                            <a href="#formacao" class="nav-link">FORMAÇÃO</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">CURSOS E CERTIFICADOS</a>
+                            <a href="#cursos" class="nav-link">CURSOS E CERTIFICADOS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="3" class="nav-link">HABILIDADES</a>
+                            <a href="#habilidades" class="nav-link">HABILIDADES</a>
                         </li>
                         <li class="nav-item">
-                            <a href="3" class="nav-link">CONTATO</a>
+                            <a href="#contatos" class="nav-link">CONTATO</a>
                         </li>
                         <li class="nav-item">
-                            <a href="3" class="nav-link last">PROJETOS ></a>
+                            <a href="projetos.html" class="nav-link last">PROJETOS ></a>
                         </li>
                     </ul>
 
@@ -75,6 +75,8 @@
             </div>
         </div>
 
+        <!-- Cursos e certificados -->
+
         <div id="cursos">
             <div class="text-cursos">
                 <h1 class="title">Cursos e certificados</h1>
@@ -100,6 +102,8 @@
             <img src="img/img-cursos.png" class="img-cursos" alt="ilustração de uma mão segurando um celular e tocando na tela">
         </div>
 
+        <!-- Galeria de certificados -->
+
         <div class="galeria-modal" onclick="fecharGaleria()">
             <span>X</span>
             <img src="" alt="">
@@ -108,13 +112,16 @@
         <section>
             <div class="galeria">
                 <div class="single-galeria">
+                    <img src="img/certificado07.png" alt="" onclick="abrirGaleria('img/certificado07.png')">
+                </div>
+                <div class="single-galeria">
                     <img src="img/Certificado01.png" alt="" onclick="abrirGaleria('img/Certificado01.png')">
                 </div>
                 <div class="single-galeria">
                     <img src="img/Certificado02.png" alt="" onclick="abrirGaleria('img/Certificado02.png')">
                 </div>
                 <div class="single-galeria">
-                    <img src="img/Certificado03.png" alt="" onclick="abrirGaleria('img/Certificado03.png')">
+                    <img src="img/certificado03.png" alt="" onclick="abrirGaleria('img/certificado03.png')">
                 </div>
                 <div class="single-galeria">
                     <img src="img/certificado04.png" alt="" onclick="abrirGaleria('img/certificado04.png')">
@@ -122,13 +129,13 @@
                 <div class="single-galeria">
                     <img src="img/certificado05.png" alt="" onclick="abrirGaleria('img/certificado05.png')">
                 </div>
-                <div class="single-galeria">
-                    <img src="" alt="">
-                </div>
+                
             </div>
         </section>
 
-        <h1 class="title title_habilidades">Minhas habilidades</h1>
+        <!-- Habilidades -->
+
+        <h1 id="habilidades" class="title title_habilidades">Minhas habilidades</h1>
 
     
             <div class="img_habilidades">
@@ -136,7 +143,10 @@
                 <img src="img/Gráfico.png" class="img-grafico" alt="">
             </div>
 
-        <h1 class="title title_contatos"> Contatos </h1>
+
+        <!-- Meus contatos -->
+
+        <h1 id="contatos" class="title title_contatos"> Contato </h1>
 
 
         <div class="meus_contatos">
@@ -144,16 +154,15 @@
                 <a href="carolprado08@gmail.com" target="_blank"><img class="icone-do-email" src="img/email.png" alt="ícone de E-mail"></a>
                 <span id="meu-email">carolprado08@gmail.com <button class="button-copy" onclick="copiarTexto()"><img src="img/icone-de-copiar.png" alt=""></button></span>
             </div>
-            <div class="icones-contatos">
-                <a href="https://www.linkedin.com/in/carolina-prado-3954a4195/" target="_blank"><img src="img/linkedin-svg.svg" class="icone-do-linkedin" alt="ícone do Linkedin"></a>
-                <span>Linkedin</span>
-            </div>
         </div>
+
+        <!-- Currículo -->
 
         <div class="curriculo-bg">
         <p class="curriculo-frase">Veja o meu currúculo:</p>
             <div class="icones-curriculo">
-                <a href="curriculo-pdf.html" target="_blank"><img src="img/icone-curriculo.png" class="icone-meu-curriculo" alt="ícone de currículo"></a> 
+                <img src="img/icone-curriculo.png" class="icone-meu-curriculo" alt="ícone de currículo">
+                <a href="curriculo-pdf.html" target="_blank"><img src="img/icone-visualizar.png" class="icone-visualizar" alt="icone de olho para visualizar currículo"></a> 
                 <a href="img/curriculo-pasta/Curriculo-Dev-Carolina-Prado.pdf" download><button  class="icone-down-container"><img class="icone-down" src="img/download-icone.png" alt="botão de fazer download"></button></a>   
             </div>
         </div>
