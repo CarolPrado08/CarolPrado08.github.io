@@ -343,3 +343,17 @@ div.galeria div.single-galeria img:hover{
 .icone-visualizar:hover{
     background-color: gray;
 }
+
+/* footer */
+
+footer{
+    background-image: linear-gradient( #000000, #A170F5);
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+}
+
+footer p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 8px;
+}
