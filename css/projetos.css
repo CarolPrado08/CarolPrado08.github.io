@@ -53,3 +53,15 @@
 .icon-git:hover{
     transform: scale(1.3);
 }
+
+
+.title{
+    font-family: 'DM Serif Display', serif;
+    color: #A170F5;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.projetos_title{
+    text-align: center;
+}
