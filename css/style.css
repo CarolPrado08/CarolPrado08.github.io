@@ -1,7 +1,9 @@
  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=DM+Serif+Display&display=swap');
 
 
-
+body{
+    font-size: 15px;
+}
  
 .container{
     display: flex;
@@ -73,6 +75,7 @@
 .title{
     font-family: 'DM Serif Display', serif;
     color: #A170F5;
+    font-size: 28px;
     font-weight: bold;
     padding: 10px;
 }
@@ -363,12 +366,36 @@ div.galeria div.single-galeria img:hover{
 
 /* Formulário */
 
+.contact-title{
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
 
-#formulario-contatos{
+.form-contact{
     font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+
+.form-contact label{
+    padding: 5px;
+}
+
+.form-contact input, textarea{
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.form-contact textarea:hover, input:hover{
+    border-color: #A170F5;
 }
 
 .hover-botton{
+    width: 100px;
     border-radius: 25px;
     padding: 5px 15px;
     margin: 15px 10px;

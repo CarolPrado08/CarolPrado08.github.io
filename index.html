@@ -176,32 +176,24 @@
 
         <br><br><br><br><br>
 
-        <section style="margin: 35px 0 0 210px;">
-            <div id="formulario-contatos">
-            
-                <form action="https://formsubmit.co/carolprado08@gmail.com" method="POST" data-form>
-                    <div class="col-6 p-md-2">
-                        <label for=name class="form-label">Nome: *</label>
-                            <input id="name" class="form-control" type="text" required>
-                    </div>
-                    <div class="col-6 p-md-2">
-                        <label for="email" class="form-label">E-mail: *</label>
-                            <input id="email" class="form-control" type="email" required>
-                    </div>
-                    <div class="col-6 p-md-2">
-                        <label for="tel" class="form-label">Telefone: </label>
-                            <input id="tel" class="form-control" type="tel">
-                    </div>
-                    <div class="col-6 p-md-2">
-                        <label for="mensagem" class="form-label">Mensagem: *</label>
-                        <textarea id="mensagem" class="form-control" required></textarea>
-                    </div>
-                    <button data-button type="submit" class="btn-dark hover-botton" target="_blank">Enviar</button>
-                </form>
-            </div>
-        </section>
+        <h1 class="title contact-title">Vamos conversar?</h1>
         
-
+            <form action="https://formsubmit.co/carolprado08@gmail.com" method="POST">
+                <div class="form-contact">
+                <label for="name">Nome: *</label>
+                <input type="text" name="name" required>
+                <label for="name">E-mail: *</label>
+                <input type="email" name="email" required>
+                <label for="tel">Telefone: </label>
+                <input type="number" name="tel">
+                <label for="message">Mensagem: *</label>
+                <textarea id="message" name="text" id="" cols="20" rows="5" required></textarea>
+                <button type="submit" class="btn-dark hover-botton">Enviar</button>
+                </div>
+            </form>
+        
+       
+       
 
         <footer>
             <p>Desenvolvido por Carolina Prado - 2023</p>
