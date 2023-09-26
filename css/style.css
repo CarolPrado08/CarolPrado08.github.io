@@ -373,6 +373,7 @@ div.galeria div.single-galeria img:hover{
     margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 .form-contact{
     font-family: 'Be Vietnam Pro', sans-serif;
     display: flex;
@@ -394,6 +395,8 @@ div.galeria div.single-galeria img:hover{
     border-color: #A170F5;
 }
 
+=======
+>>>>>>> cec80710943726dae62c3f17e45acc8e11044075
 .hover-botton{
     width: 100px;
     border-radius: 25px;
