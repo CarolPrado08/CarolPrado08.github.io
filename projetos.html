@@ -9,6 +9,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/janela-responsividade.css">
+    <script src="js/janela-modal.js" defer></script>
 </head>
 
 <body>
@@ -45,6 +47,28 @@
     <!-- <iframe width="80%" height="500px" src="https://www.online-ide.com/2xZg76pJVc"></iframe> -->
     <br><br><br><h1 class="title projetos_title">Projetos</h1>
 
+    <div style="display: flex; justify-content: center;">
+        <div class="project-container">
+            <img class="imc-project" src="img/Projetos/Tabela_IMC.png" alt="">
+            <div class="button" onclick="abrir()">Saiba mais...</div>
+        </div>
+    </div>
+
+    <div class="janela-modal">
+        <div class="fechar" onclick="fechar()"><img src="img/icon-close.png" alt="icone de fechamento"></div>
+        <h1 class="title-modal">Calculadora de IMC</h1>
+        <p class="text-modal">Projeto desenvolvido com javascript puro que tem a função de calcular o IMC de uma pessoa e dizer qual a classificação do peso, além disso, no final do projeto tem uma tabela para o melhor entendimento da classificação do IMC.</p>
+        <p class="text-modal">O projeto foi desenvolvido com as seguintes ferramentas:</p>
+        <div class="icons-tech">
+            <img src="img/icones-tech/icons-html.svg" alt="HTML">
+            <img src="img/icones-tech/icons-css.svg" alt="CSS">
+            <img src="img/icones-tech/icons-js.svg" alt="javascript">
+        </div>
+        <div class="botoes-modal">
+            <a href="https://github.com/CarolPrado08/Tabela_IMC-Javascript.git" target="_blank"> <button> Acessar repositório</button> </a>
+            <a href="https://carolprado08.github.io/Tabela_IMC-Javascript/" target="_blank"> <button> Acessar o site hospedado</button></a>
+        </div>
+    </div>
 
     <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
         <h4>Pequeno projeto feito com Python:</h4>
