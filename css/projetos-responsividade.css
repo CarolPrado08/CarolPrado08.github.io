@@ -1,0 +1,28 @@
+
+@media screen and (max-width: 800px) {
+#nav_link, .nav-item{
+    margin: auto;
+}
+.icon-in{
+    margin-top: 5px;
+    margin-left: 125px;
+    margin-right: 10px;
+
+}
+
+iframe{
+    width: 80%;
+}
+
+#all_projects_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.python-project{
+    margin-top: 15px;
+}
+
+}

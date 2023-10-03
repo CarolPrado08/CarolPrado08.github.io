@@ -17,9 +17,6 @@
    
 }
 
-.icon-git{
-
-}
 
 /* sobre mim */
 
@@ -100,12 +97,23 @@
     padding-left: 10px;
 }
 
+/* Formulário */
+form{
+    padding: 8px;
+}
+
+form input, textarea{
+    max-width: 90%;
+  
+}
 
 /* footer*/
 
 footer p{
   font-size: 15px;
 }
+
+
 }
 
 

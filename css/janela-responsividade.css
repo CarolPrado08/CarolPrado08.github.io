@@ -1,6 +1,6 @@
 @media screen and (max-width: 800px) {
 
-    .janela-modal{
+    .janela-modal, .janela-modal-2{
         width: 95%;
         height: max-content;
      
@@ -19,6 +19,12 @@
     .botoes-modal button{
         border-radius: 15px;
         padding: 5px;
+    }
+
+    .project-container{
+        margin: 0px 0px;
+        margin-top: 20px;
+        margin-bottom: 25px;
     }
     
 }
