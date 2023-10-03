@@ -20,8 +20,6 @@
     <nav class="navbar navbar-expand-lg" style="background-image: linear-gradient( #000000, #A170F5); position: fixed; top: 0; left: 0;  width: 100%;">
         <div class="container">
 
-            
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_link" aria-controls="nav_link" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,26 +45,53 @@
     <!-- <iframe width="80%" height="500px" src="https://www.online-ide.com/2xZg76pJVc"></iframe> -->
     <br><br><br><h1 class="title projetos_title">Projetos</h1>
 
-    <div style="display: flex; justify-content: center;">
-        <div class="project-container">
-            <img class="imc-project" src="img/Projetos/Tabela_IMC.png" alt="">
-            <div class="button" onclick="abrir()">Saiba mais...</div>
+    <div id="all_projects_container">
+        <div style="display: flex; justify-content: center;">
+            <div class="project-container">
+                <img class="imc-project" src="img/Projetos/Tabela_IMC.png" alt="">
+                <div class="button" onclick="abrir('.janela-modal')">Saiba mais...</div>
+            </div>
         </div>
-    </div>
 
-    <div class="janela-modal">
-        <div class="fechar" onclick="fechar()"><img src="img/icon-close.png" alt="icone de fechamento"></div>
-        <h1 class="title-modal">Calculadora de IMC</h1>
-        <p class="text-modal">Projeto desenvolvido com javascript puro que tem a função de calcular o IMC de uma pessoa e dizer qual a classificação do peso, além disso, no final do projeto tem uma tabela para o melhor entendimento da classificação do IMC.</p>
-        <p class="text-modal">O projeto foi desenvolvido com as seguintes ferramentas:</p>
-        <div class="icons-tech">
-            <img src="img/icones-tech/icons-html.svg" alt="HTML">
-            <img src="img/icones-tech/icons-css.svg" alt="CSS">
-            <img src="img/icones-tech/icons-js.svg" alt="javascript">
+        <div class="janela-modal">
+            <div class="fechar" onclick="fechar('.janela-modal')"><img src="img/icon-close.png" alt="icone de fechamento"></div>
+            <h1 class="title-modal">Calculadora de IMC</h1>
+            <p class="text-modal">Projeto desenvolvido com javascript puro que tem a função de calcular o IMC de uma pessoa e dizer qual a classificação do peso, além disso, no final do projeto tem uma tabela para o melhor entendimento da classificação do IMC.</p>
+            <p class="text-modal">O projeto foi desenvolvido com as seguintes ferramentas:</p>
+            <div class="icons-tech">
+                <img src="img/icones-tech/icons-html.svg" alt="HTML">
+                <img src="img/icones-tech/icons-css.svg" alt="CSS">
+                <img src="img/icones-tech/icons-js.svg" alt="javascript">
+            </div>
+            <div class="botoes-modal">
+                <a href="https://github.com/CarolPrado08/Tabela_IMC-Javascript.git" target="_blank"> <button> Acessar repositório</button> </a>
+                <a href="https://carolprado08.github.io/Tabela_IMC-Javascript/" target="_blank"> <button> Acessar o site hospedado</button></a>
+            </div>
         </div>
-        <div class="botoes-modal">
-            <a href="https://github.com/CarolPrado08/Tabela_IMC-Javascript.git" target="_blank"> <button> Acessar repositório</button> </a>
-            <a href="https://carolprado08.github.io/Tabela_IMC-Javascript/" target="_blank"> <button> Acessar o site hospedado</button></a>
+
+        <!-- Projeto 2 -->
+
+        <div style="display: flex; justify-content: center;">
+            <div class="project-container">
+                <img class="agua-project" src="img/Projetos/Calculo_agua.png" alt="">
+                <div class="button" onclick="abrir('.janela-modal-2')">Saiba mais...</div>
+            </div>
+        </div>
+
+        <div class="janela-modal-2">
+            <div class="fechar" onclick="fechar('.janela-modal-2')"><img src="img/icon-close.png" alt="icone de fechamento"></div>
+            <h1 class="title-modal">Quantidade de água diária</h1>
+            <p class="text-modal">Projeto desenvolvido com javascript puro que tem a função de calcular quantos litros de água de uma pessoa precisa beber diariamente de acordo com o peso, além disso, no final do projeto tem algumas informações importantes sobre o cálculo.</p>
+            <p class="text-modal">O projeto foi desenvolvido com as seguintes ferramentas:</p>
+            <div class="icons-tech">
+                <img src="img/icones-tech/icons-html.svg" alt="HTML">
+                <img src="img/icones-tech/icons-css.svg" alt="CSS">
+                <img src="img/icones-tech/icons-js.svg" alt="javascript">
+            </div>
+            <div class="botoes-modal">
+                <a href="https://github.com/CarolPrado08/calculo_de_agua.git" target="_blank"> <button> Acessar repositório</button> </a>
+                <a href="https://carolprado08.github.io/calculo_de_agua/" target="_blank"> <button> Acessar o site hospedado</button></a>
+            </div>
         </div>
     </div>
 
