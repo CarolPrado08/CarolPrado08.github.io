@@ -121,9 +121,24 @@
     height: 440px;
     border-radius: 25px;
     background-image: linear-gradient( #000000, #A170F5);
-    color: antiquewhite;
+    color: #fff;
     position: absolute;
      top: 55%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: none;
+     animation: animate;
+     animation-duration: 800ms;
+}
+
+.janela-modal-3{
+    width: 60%;
+    height: 440px;
+    border-radius: 25px;
+    background-image: linear-gradient( #000000, #A170F5);
+    color: #fff;
+    position: absolute;
+     top: 110%;
      left: 50%;
      transform: translate(-50%, -50%);
      display: none;
